@@ -1,6 +1,6 @@
 .App {
   max-width: 1440px;
-  padding: 100px 0 100px 0;
+  padding: 4px 6% 100px 6%;
   margin: 0px auto;
 }
 
@@ -24,9 +24,24 @@ code {
   height: 20px;
 }
 
+input, select {
+  display: block;
+  margin-bottom: 20px;
+  height: 20px;
+}
+
 .error__display--block {
     font-size: 14px;
     color: darkred;
     display: block;
     margin-bottom: 20px;
+}
+
+.form-title {
+  position: relative;
+  right: 20px;
+}
+
+form {
+  margin-bottom: 60px;
 }

@@ -1,12 +1,14 @@
 import './App.css';
-import PageHeader from './component/PageHeader';
-import FormWithHook from './component/FormWithHook';
+import QuickStart from './component/QuickStart';
+import RegisterField from './component/RegisterField';
+import Watch from './component/Watch';
 
 function App() {
   return (
     <div className="App">
-      <PageHeader />
-      <FormWithHook />
+      <QuickStart />
+      <RegisterField />
+      <Watch />
     </div>
   );
 }
